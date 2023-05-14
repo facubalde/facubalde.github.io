@@ -1,46 +1,36 @@
-header {
-    /*color: white;*/
-    background-color:lightblue;
-    text-align: center;
-    top:0;
-    left: 0px;
-    right: 0px;
-    height: 150px;
-    position: relative;
-
+footer {
+    height: 100px;
+    color: white;
+    background-color:darkslategrey;
 }
 
-.fotoperfil {
-    position: absolute;
-    top: 150px;
+#lugarfecha {
+    color:white;
+    background-color:grey;
 }
 
-aside {
-    background-color: aquamarine;
-    height: 550px;
-    width: 200px;
-    position: absolute;
+#btnform {
+    background-color: greenyellow;
 }
 
-section {
-    position: relative;
-    left: 250px;
-    top: 0;
+.menu {
+    color: white;
 }
 
-.experiencia {
-    position: relative;
-    left: 250px;
-    top: 0;
+a:link {
+    color: white;
+    text-decoration: none;
 }
 
-.habilidades {
-    position: relative;
-    left: 250px;
-    top: 500px;
-    
+.split {
+    height: 100%;
+    width: 50%;
 }
 
-.personalinfo {
-    display: "none";
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
 }
